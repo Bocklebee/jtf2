@@ -41,8 +41,10 @@ func (squad *Squad) WriteToFile() error {
 	}
 	defer file.Close()
 	file.WriteString("// Data from: " + URL + "\n")
-	file.WriteString("// fetched: " + time.Now().Format(time.RFC1123) + "\n")
-	file.WriteString("// https://fortkickass.co\n\n")
+	file.WriteString("// Fetched: " + time.Now().Format(time.RFC1123) + "\n")
+	file.WriteString("// Check out the source: https://github.com/HenrySlawniak/jtf2\n")
+	file.WriteString("// Tool created by: Henry Slawniak (https://fortkickass.co)\n")
+	file.WriteString("\n")
 	file.WriteString("_authorizedUsers = [" + "\n")
 	for i, member := range squad.Members {
 		file.WriteString(fmt.Sprintf("    \"%s\"", member.Id))

@@ -1,6 +1,7 @@
 // Data from: https://dl.dropboxusercontent.com/u/88240903/squad.xml
-// fetched: Thu, 28 May 2015 17:30:37 CDT
-// https://fortkickass.co
+// Fetched: Thu, 28 May 2015 17:33:39 CDT
+// Check out the source: https://github.com/HenrySlawniak/jtf2
+// Tool created by: Henry Slawniak (https://fortkickass.co)
 
 _authorizedUsers = [
     "76561198040859014", // B0B LT.
