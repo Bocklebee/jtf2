@@ -1,5 +1,5 @@
 // Data from: https://dl.dropboxusercontent.com/u/88240903/squad.xml
-// Fetched: Thu, 28 May 2015 17:33:39 CDT
+// Fetched: Thu, 28 May 2015 17:35:17 CDT
 // Check out the source: https://github.com/HenrySlawniak/jtf2
 // Tool created by: Henry Slawniak (https://fortkickass.co)
 
